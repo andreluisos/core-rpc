@@ -1,4 +1,4 @@
-package org.jnvim.corerpc.message;
+package message;
 
 /**
  * Defines a {@link Message} which has an ID ID has to be stored, since these messages usually

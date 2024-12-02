@@ -1,4 +1,4 @@
-package org.jnvim.corerpc.client;
+package client;
 
 import java.io.Closeable;
 import java.io.InputStream;

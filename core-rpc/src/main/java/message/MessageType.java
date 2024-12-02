@@ -1,4 +1,4 @@
-package org.jnvim.corerpc.message;
+package message;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 

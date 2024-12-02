@@ -1,7 +1,7 @@
-package org.jnvim.corerpc.client;
+package client;
 
-import org.jnvim.corerpc.message.Message;
-import org.jnvim.corerpc.message.RequestMessage;
+import message.Message;
+import message.RequestMessage;
 
 import java.io.IOException;
 

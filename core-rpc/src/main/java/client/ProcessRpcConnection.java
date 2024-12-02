@@ -1,4 +1,4 @@
-package org.jnvim.corerpc.client;
+package client;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

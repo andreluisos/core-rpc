@@ -1,4 +1,4 @@
-package org.jnvim.corerpc.message;
+package message;
 
 /**
  * Represents a generator for ids for messages. It can generate them in many different ways, but

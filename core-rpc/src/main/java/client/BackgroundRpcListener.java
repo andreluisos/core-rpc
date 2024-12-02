@@ -1,13 +1,14 @@
-package org.jnvim.corerpc.client;
+package client;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 
-import org.jnvim.corerpc.message.MessageType;
-import org.jnvim.corerpc.message.NotificationMessage;
-import org.jnvim.corerpc.message.RequestMessage;
-import org.jnvim.corerpc.message.ResponseMessage;
+import message.MessageType;
+import message.NotificationMessage;
+import message.RequestMessage;
+import message.ResponseMessage;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

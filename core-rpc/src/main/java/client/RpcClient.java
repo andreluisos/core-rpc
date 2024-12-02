@@ -1,11 +1,12 @@
-package org.jnvim.corerpc.client;
+package client;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import org.jnvim.corerpc.message.Message;
-import org.jnvim.corerpc.message.RequestMessage;
+import message.Message;
+import message.RequestMessage;
+
 import org.msgpack.jackson.dataformat.MessagePackFactory;
 
 import java.io.IOException;

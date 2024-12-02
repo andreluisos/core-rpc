@@ -1,11 +1,12 @@
-package org.jnvim.corerpc.client;
+package client;
 
-import org.jnvim.corerpc.message.Message;
-import org.jnvim.corerpc.message.MessageIdGenerator;
-import org.jnvim.corerpc.message.NotificationMessage;
-import org.jnvim.corerpc.message.RequestMessage;
-import org.jnvim.corerpc.message.ResponseMessage;
-import org.jnvim.corerpc.message.SequentialMessageIdGenerator;
+import message.Message;
+import message.MessageIdGenerator;
+import message.NotificationMessage;
+import message.RequestMessage;
+import message.ResponseMessage;
+import message.SequentialMessageIdGenerator;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

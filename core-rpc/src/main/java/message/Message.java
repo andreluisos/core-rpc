@@ -1,4 +1,4 @@
-package org.jnvim.corerpc.message;
+package message;
 
 /** Defines a single message in RPC communication */
 public interface Message {

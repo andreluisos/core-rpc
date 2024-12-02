@@ -1,8 +1,8 @@
-package org.jnvim.corerpc.client;
+package client;
 
-import org.jnvim.corerpc.message.NotificationMessage;
-import org.jnvim.corerpc.message.RequestMessage;
-import org.jnvim.corerpc.message.ResponseMessage;
+import message.NotificationMessage;
+import message.RequestMessage;
+import message.ResponseMessage;
 
 import java.io.InputStream;
 

@@ -1,8 +1,9 @@
-package org.jnvim.corerpc.client;
+package client;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import org.jnvim.corerpc.message.Message;
+import message.Message;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

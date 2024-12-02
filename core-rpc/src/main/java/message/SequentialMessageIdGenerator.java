@@ -1,4 +1,4 @@
-package org.jnvim.corerpc.message;
+package message;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
