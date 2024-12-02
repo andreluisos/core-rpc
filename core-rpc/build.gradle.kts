@@ -18,4 +18,9 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+    testLogging {
+        events("passed", "skipped", "failed", "standardOut", "standardError") // Log test events
+        exceptionFormat = org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL // Include full stack traces
+        showStandardStreams = true // Display test output in the console
+    }
 }
