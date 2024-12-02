@@ -16,6 +16,7 @@ replay_pid*
 
 kls_database.db
 
+.idea/
 **build/
 **bin/
 **.settings/
